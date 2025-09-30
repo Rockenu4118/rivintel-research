@@ -71,12 +71,12 @@ export default function RivintelLanding() {
 
   const metrics = [
     {
-      value: "$3.2B",
+      value: "$150M",
       label: "Client Portfolio Value",
       sublabel: "Under management",
     },
     { value: "96%", label: "Client Retention", sublabel: "Year over year" },
-    { value: "150+", label: "Patents Secured", sublabel: "This quarter" },
+    { value: "50+", label: "Patents Secured", sublabel: "This quarter" },
     { value: "40+", label: "Years Experience", sublabel: "Combined expertise" },
   ];
 
@@ -120,9 +120,9 @@ export default function RivintelLanding() {
                 <div className="text-xl font-semibold text-slate-100">
                   Rivintel Research
                 </div>
-                <div className="text-xs text-cyan-400 font-mono">
+                {/* <div className="text-xs text-cyan-400 font-mono">
                   Intellectual Property Advisors
-                </div>
+                </div>*/}
               </div>
             </div>
             <button
@@ -545,7 +545,7 @@ export default function RivintelLanding() {
       <section className="relative z-10 max-w-5xl mx-auto px-6 py-24">
         <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 backdrop-blur-sm border border-cyan-500/30 rounded-2xl p-12 text-center">
           <h2 className="text-4xl font-bold text-slate-100 mb-4">
-            Let's Discuss Your IP Strategy
+            Lets Discuss Your IP Strategy
           </h2>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
             Schedule a confidential consultation to explore how Rivintel
@@ -572,7 +572,7 @@ export default function RivintelLanding() {
             </span>
           </div>
           <div className="text-sm text-slate-400 mt-4">
-            © 2025 Rivintel Research. All rights reserved.
+            © 2025 Rivintel Research Holdings LLC. All rights reserved.
           </div>
         </div>
       </footer>
